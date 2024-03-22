@@ -107,6 +107,29 @@
       "id": "b415fc4a-543a-4648-a4ea-682ff1416541",
       "createdAt": "3/22/2024, 2:41:17 PM",
       "updatedAt": "3/22/2024, 2:41:17 PM"
+    },
+    {
+      "name": "Треня Андрюхи",
+      "mode": "Силовая",
+      "equipment": [
+        "перчатки",
+        "barbell",
+        "abmat"
+      ],
+      "exercises": [
+        "150 отжиманий",
+        "150 подтягиваний",
+        "150 км пробежать",
+        "150 пресс"
+      ],
+      "trainerTips": [
+        "Split your toes to bars into two sets maximum",
+        "Go unbroken on the thrusters",
+        "Take the abmat sit-ups as a chance to normalize your breath"
+      ],
+      "id": "1d0153b1-5e1b-4dc3-b168-36280552d243",
+      "createdAt": "3/22/2024, 2:58:47 PM",
+      "updatedAt": "3/22/2024, 3:10:18 PM"
     }
   ]
 }
