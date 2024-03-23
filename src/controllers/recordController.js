@@ -1,10 +1,11 @@
 const recordService = require('../services/recordService');
 
+
 const getRecordForWorkout = (req, res) => {
   const {
     params: { workoutId },
   } = req;
-  
+
   if (!workoutId) {
     res.status(400).send({
       status: 'FAILED',
