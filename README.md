@@ -6,14 +6,14 @@
 База данных состоих из файла db.json. Состоит из "таблиц":
 | workouts: | members:|records|
 |--|--|--|
-|-- name;|-- name;|--id;|
-|-- mode;|-- gender;|--workout;|
-|-- equipment;|-- dateOfBirth;|--record.|
-|-- exercises;|-- email;|
-|-- trainerTips;|-- password;|
-|-- id;|--id.|
-|-- createdAt;|
-|-- updatedAt.|
+|name|name|id|
+|mode|gender|workout|
+|equipment;|dateOfBirth|record|
+|xercises|email|
+|trainerTips|password|
+|id|id|
+|createdAt|
+|updatedAt|
 
 
 
