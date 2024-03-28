@@ -5,7 +5,7 @@
 |--|--|--|
 |name|name|id|
 |mode|gender|workout|
-|equipment;|dateOfBirth|record|
+|equipment|dateOfBirth|record|
 |xercises|email|
 |trainerTips|password|
 |id|id|
