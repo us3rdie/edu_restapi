@@ -1,7 +1,7 @@
 Тестовый API для создания, редактирования, просмотра, удаления тренировок.
 
 База данных состоих из файла db.json. Состоит из "таблиц":
-| workouts: | members:|records|
+|workouts|members|records|
 |--|--|--|
 |name|name|id|
 |mode|gender|workout|
