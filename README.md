@@ -1,11 +1,11 @@
 Тестовый API для создания, редактирования, просмотра, удаления тренировок.
 
 База данных состоих из файла db.json. Состоит из "таблиц":
-| workouts: | members:|records|
+|workouts|members|records|
 |--|--|--|
 |name|name|id|
 |mode|gender|workout|
-|equipment;|dateOfBirth|record|
+|equipment|dateOfBirth|record|
 |xercises|email|
 |trainerTips|password|
 |id|id|
@@ -16,8 +16,9 @@
 
 
 
-GET "/api/v1/workouts"  
-GET "/api/v1/workouts/:workoutId"  
-POST "/api/v1/workouts"  
-PATCH "/api/v1/workouts/:workoutId"  
-DELETE "/api/v1/workouts/:workoutId"  
+GET "/api/v1/workouts"  - get all workouts info  
+GET "/api/v1/workouts/:workoutId"  - get workoutId info  
+GET "/api/v1/workouts/:workoutId/records"  - get records by workoutId  
+POST "/api/v1/workouts"  - add new workout  
+PATCH "/api/v1/workouts/:workoutId"  - patch workout by workoutId (exmpl: new feauters)  
+DELETE "/api/v1/workouts/:workoutId"  - remove workout by workoutId  
